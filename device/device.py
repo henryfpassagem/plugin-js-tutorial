@@ -48,7 +48,7 @@ class Device:
         voltage = self.voltage()
         current = self.current()
         if current == 0:
-            resistance = float('inf')
+            return float('inf')
         else: 
             resistance = voltage / current
-        return resistance
+            return resistance

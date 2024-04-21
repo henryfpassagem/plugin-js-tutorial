@@ -31,3 +31,5 @@ create a .gitignore to *venv files
 2)
 If you have a folder with __init__.py file it makes it a module
 For device class be a module, you must make __init__.py:
+
+3) For creating a web API we use flask to create endpoints and attach them to python functions
